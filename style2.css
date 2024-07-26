@@ -1,0 +1,38 @@
+/* body에 대한 스타일링 */
+body {
+  text-align: center;
+  padding: 30px;
+  background: url("img/sea.jpeg") no-repeat center center fixed;
+  background-size: cover; /* 배경 이미지가 화면 전체를 덮도록 설정 */
+  background-attachment: fixed; /* 배경 이미지가 스크롤 시 고정됨 */
+  margin: 0; /* 기본 마진 제거 */
+  display: flex; /* flexbox 사용 */
+  flex-direction: column; /* 수직 방향 정렬 */
+  justify-content: center; /* 수직 방향 중앙 정렬 */
+  align-items: center; /* 수평 방향 중앙 정렬 */
+  min-height: 100vh; /* 화면 높이 전체를 사용 */
+}
+
+/* input-group에 대한 스타일링 */
+.input-group {
+  margin-top: 20px;
+}
+
+/* todo-list에 대한 스타일링 */
+.todo-list {
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+  max-width: 300px;
+  width: 100%;
+}
+
+/* todo-item에 대한 스타일링 */
+.todo-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  cursor: pointer; /* 클릭 가능한 느낌을 줍니다. */
+}
